@@ -1,0 +1,31 @@
+{
+  "name": "file-management-apis",
+  "version": "1.0.0",
+  "description": "Task of building File Management APIs for Dataseer Digital organization",
+  "main": "app.js",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/app.js",
+    "start": "concurrently npm:start:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nat2911/file-management-apis.git"
+  },
+  "author": "Nandan Tendulkar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nat2911/file-management-apis/issues"
+  },
+  "homepage": "https://github.com/nat2911/file-management-apis#readme",
+  "dependencies": {
+    "concurrently": "^8.2.2",
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.0.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/multer": "^1.4.11"
+  }
+}
