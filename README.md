@@ -4,9 +4,9 @@
 
 ### We can perform CRUD operations with the files.
 
-#### There are two endpoints RESTful:
+#### There are two RESTful endpoints:
 
-`/api/v1/files` and `/api/v1/:filename`.
+`/api/v1/files` and `/api/v1/files/:filename`.
 
 To get list of all files make a `GET` request on `/api/v1/files`.
 
